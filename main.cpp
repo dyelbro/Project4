@@ -84,7 +84,7 @@ void input(int& x)
 
 double process(int x, int& n, double sum)
 {
-        //Computer e^x with x^n/n!
+        //Compute e^x with x^n/n!
         for (n = 1; n <= 100; n++)
         {
                 sum += (pow(x, n)) / (fact(n));
